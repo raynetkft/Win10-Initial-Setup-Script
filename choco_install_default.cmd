@@ -6,8 +6,8 @@ choco install -y googlechrome
 echo "Editor - Visual Studio Code: https://visualstudio.microsoft.com/"
 choco install -y visualstudiocode
 
-echo "Java - Java SE Runtime Environment"
-choco install -y jre8
+REM echo "Java - Java SE Runtime Environment"
+REM choco install -y jre8
 
 echo "System - Windows Sysinternals: https://docs.microsoft.com/en-us/sysinternals/"
 choco install -y sysinternals
@@ -39,24 +39,40 @@ choco install -y veracrypt
 echo "Security - Password: https://keepass.info/"
 choco install -y keepass
 
-echo "Security - SSH: https://winscp.net/eng/index.php"
-choco install -y winscp
+REM echo "Security - SSH: https://winscp.net/eng/index.php"
+REM choco install -y winscp
 
-echo "Security - SSH: https://www.putty.org/"
-choco install -y putty
+REM echo "Security - SSH: https://www.putty.org/"
+REM choco install -y putty
 
-echo "Applications"
+echo "https://chocolatey.org/packages/f.lux"
 choco install -y f.lux
-choco install -y multicommander
-choco install -y freefilesync
+
+echo "https://chocolatey.org/packages/cports"
+choco install -y cports
+
+REM choco install -y multicommander
+REM choco install -y freefilesync
+
+echo "https://chocolatey.org/packages/greenshot"
 choco install -y greenshot
-choco install -y irfanview
-choco install -y pidgin
-choco install -y skype
+
+REM choco install -y irfanview
+REM choco install -y pidgin
+REM choco install -y skype
+
+echo "https://chocolatey.org/packages/vlc"
 choco install -y vlc
+
+echo "https://chocolatey.org/packages/adobereader"
 choco install -y adobereader
+
+echo "https://chocolatey.org/packages/edrawings-viewer"
 choco install -y edrawings-viewer
-choco install -y nitroshare
+
+REM choco install -y nitroshare
+echo "https://chocolatey.org/packages/systemexplorer"
 choco install -y systemexplorer
-choco install -y autohotkey
-choco install -y iiscrypto iiscrypto-cli
+
+REM choco install -y autohotkey
+REM choco install -y iiscrypto iiscrypto-cli
