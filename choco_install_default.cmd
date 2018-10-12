@@ -33,6 +33,9 @@ choco install -y gpg4win
 echo "Security - Crypto: https://cryptomator.org/"
 choco install -y cryptomator
 
+echo "Security - Crypto: https://www.veracrypt.fr"
+choco install -y veracrypt
+
 echo "Security - Password: https://keepass.info/"
 choco install -y keepass
 
