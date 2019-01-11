@@ -54,7 +54,7 @@ choco install -y cports
 REM choco install -y multicommander
 REM choco install -y freefilesync
 
-choco install -y totlacommander
+choco install -y totalcommander
 
 echo "https://chocolatey.org/packages/greenshot"
 choco install -y greenshot
